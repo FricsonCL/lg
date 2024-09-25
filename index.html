@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            height: 100vh;
+            background-color: #f0f0f0; /* Color de fondo */
+            padding: 120px 0; /* Aumenta el espacio arriba y abajo */
+        }
+        .container {
+            display: flex;
+            width: 80%; /* Ancho del rectángulo */
+            max-width: 900px; /* Ancho máximo para pantallas grandes */
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px 0; /* Agrega margen superior e inferior */
+            padding: 20px; /* Espacio interno */
+        }
+        .izquierda {
+            background-color: bisque; 
+            width: 50%;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center; /* Centra el texto y la imagen */
+        }
+        .derecha {
+            background-color: white; 
+            width: 50%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .franja {
+            background-color: bisque;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .franjab {
+            background-color: white;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        h2, h3 {
+            margin: 10px 0;
+        }
+        img {
+            height: 170px; /* Aumenta el tamaño de la imagen */
+            width: 140px; /* Aumenta el tamaño de la imagen */
+            border-radius: 50%;
+            display: block; /* Cambia a bloque */
+            margin: 0 auto; /* Centra la imagen */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="izquierda">
+            <img src="Imagenes/foto.jpg" > <!-- Espacio para la foto -->
+            <h3 class="franjab" style="margin-top: 30px;">SOBRE MÍ</h3>
+            <p>Soy una persona divertida, amistosa y con mucho amor al futbol.</p>
+            
+            <h3 class="franjab">CONTACTO</h3>
+            <p>0981683356</p>
+            <p>Fricson Carvajal</p>
+            <p>carvajallandetaf@gmail.com</p>
+            
+            <h3 class="franjab">CONTACTOS DE REFERENCIA</h3>
+            <p>Doménica Carvajal</p>
+            <p>Hermana</p>
+            <p>0973564738</p>
+            <p>domecarvajal@gmail.com</p>
+            
+            <p>Carmen Landeta</p>
+            <p>Mamá</p>
+            <p>0976345612</p>
+            <p>carmenlandeta@gmail.com</p>
+        </div>
+
+        <div class="derecha">
+            <h2 class="franja">DATOS PERSONALES</h2>
+            <p>NOMBRES Y APELLIDOS: Fricson Jhon Carvajal Landeta</p>
+            <p>FECHA DE NACIMIENTO: 10/MAYO/2003</p>
+            <p>CÉDULA: 2450762402</p>
+            <p>SEXO: Masculino</p>
+            <p>DIRECCIÓN: Salinas - Santa Rosa - Barrio 12 de Octubre</p>
+            
+            <h3 class="franja">PERFIL PROFESIONAL</h3>
+            <p>Soy una persona responsable, puntual, creativa y con muy buena disposición para cualquier tarea que se me asigne, dispuesto a cumplir a cabalidad todas mis obligaciones.</p>
+            
+            <h3 class="franja">FORMACIÓN ACADÉMICA</h3>
+            <p><strong>Educación Básica:</strong></p>
+            <p>Escuela "Rumbos Nuevos"</p>
+            <p>Escuela de Educación Básica "Carlos Espinosa Larrea"</p>
+            <p>Escuela de Educación Básica "Pedro María Zambrano Reyes"</p>
+            <p><strong>Educación Superior:</strong></p>
+            <p>Unidad Educativa "UPSE"</p>
+            <p><strong>Estudios Actuales:</strong></p>
+            <p>Cursando el quinto semestre de la carrera de Tecnologías de la Información en la Universidad Estatal Península de Santa Elena.</p>
+        </div>
+    </div>
+</body>
+</html>
